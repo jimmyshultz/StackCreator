@@ -123,11 +123,11 @@ public class App {
     }
 
     /**
-     * Pushes the first element of a linked list of integers 
-     * onto a stack of integers.
+     * Removes the first element of a linked list of integers 
+     * and pushes it onto a stack of integers.
      * 
-     * @param pNumbers
-     * @param pNumbersStack
+     * @param pNumbers the sorted linked list to be drawn from
+     * @param pNumbersStack the stack to be pushed to
      * @since 1.2
      */
     public static void pushLinkedListElementToStack (

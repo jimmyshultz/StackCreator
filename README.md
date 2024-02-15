@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to Linked List Creator.
+Welcome to Stack Creator.
 
 ## Folder Structure
 
@@ -11,7 +11,7 @@ The workspace contains two main folders, where:
 - `doc`: the folder to hold javadoc files
 
 ## How to Run
-To run the program in the terminal navigate to the src folder and run two commands, `javac App.java` and then `java App`.
+To run the program in the terminal navigate to the src folder and run two commands, `javac StackCreator/App.java` and then `java StackCreator/App`.
 
 ## Generating Documentation
 To generate javadocs navigate to the doc folder (first create one if it has not been created yet) and run `javadoc ../src/StackCreator/App.java`
