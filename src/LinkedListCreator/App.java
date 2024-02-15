@@ -1,3 +1,5 @@
+package LinkedListCreator;
+
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.ListIterator;
@@ -7,6 +9,8 @@ import java.util.ListIterator;
  * linked list while adding them, and then eventually printed the sorted
  * linked list back to the user.
  * 
+ * The program makes use of the LinkedList, ListIterator, and Scanner packages.
+ * 
  * To run the program in the terminal navigate to the src folder and run two
  * command `javac App.java` and then `java App`.
  * 
@@ -14,17 +18,22 @@ import java.util.ListIterator;
  * `javadoc ../src/App.java`
  * 
  * @author Jimmy Shultz
- * @version 1.0
+ * @version 1.1
  * @since 1.0
  */
 public class App {
     /**
+     * Default contructor used for intilization of the class becuase no 
+     * customization is needed.
+     */
+    public App () {}
+    
+    /**
      * Main method of the class calling the getIntegerInput and addSortedNumber
      * methods.
      * @param args command line arguments are unused in the program.
-     * @throws Exception
      */
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         
         LinkedList<Integer> numbers = new LinkedList<>();
         System.out.println(
